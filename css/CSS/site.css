@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-color: skyblue;
+	backface-visibility: visible
+}
+
+h1 {
+    background-color: blue;
+	padding-bottom: inherit;
+	resize: both;
+	font-size: 40px;
+}
+
+p {
+    background-color: rgb(255,0,255);
+	text-decoration-color: aqua;
+	font-size: 100%;
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 1em;
+}
+
+p {
+    border: 5px solid yellow;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 90%
+}
+
+p.normal {
+    font-weight: normal;
+	font: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
+}
+
+img {
+    -webkit-filter: grayscale(50%);
+    filter: grayscale(50%);
+	float: left;
+}
+
+div {
+    box-shadow: 10px 10px 5px #888888;
+	color: red;
+}
