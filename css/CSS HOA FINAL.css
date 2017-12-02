@@ -1,0 +1,197 @@
+@charset "utf-8";
+html{
+	background-color: #D3BE8A;
+	margin-top: 10px;
+	
+}
+.logo{
+	
+}
+.search{
+	position: absolute;
+	left: 1440px;
+	bottom: 765px;
+	height: 20px;
+}
+.current{
+	border-right-style: solid;
+	border-right-color:#24D5EB;
+	border-left-color:#24D5EB;
+	border-left-style: solid;
+	padding-top:10px;
+	padding-bottom:10px;
+	
+}
+.title{
+	position: absolute;
+	right: 730px;
+	bottom: 650px;
+	font:"alex-brush";
+}
+ul {
+    list-style-type: none;
+    margin: 2;
+    padding: 15px;
+    overflow: hidden;
+    background-color:hsla(0,0%,38%,0.74);
+    top: 100px;
+	margin-left:-10px;
+	margin-right:-10px;
+	font-size: 20px
+}
+#nav_menu{
+	align-content: center;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+	padding: 14px 16px;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+	background-color: #111
+}
+.active {
+    background-color: #4CAF50;
+}
+h2{
+	position:absolute;
+	bottom: 1250px;
+	right: 1625px;
+	width: 120px;
+	margin-left: 150px;
+	margin-bottom: -600px;
+	border: 3px black;
+	border-style:solid;
+	padding-left:50px;
+	background:white;
+}
+.park{
+	position: absolute;
+	left: 470px;
+	top: 350px
+}
+.BlackGirl {
+	position: absolute;
+	left: 620px;
+  	top: 500px;
+	width:174px;
+	height:174px;
+}
+div.scroll {
+    background-color: white;
+    width: 174px;
+    height: 150px;
+    overflow: scroll;
+}
+.glasses{
+	position: absolute;
+	left: 900px;
+  	top: 450px;
+	width:174px;
+	height:174px;
+}
+.grin {
+	position: absolute;
+	left: 1190px;
+  	top: 450px;
+	width:174px;
+	height:174px;
+}
+.kid {
+	position: absolute;
+	left: 1450px;
+  	top: 500px;
+	width:174px;
+	height:174px;
+}
+.pinkshirt {
+	position: absolute;
+	left: 760px;
+  	top: 850px;
+	width:174px;
+	height:174px;
+}
+.unnamed {
+	position: absolute;
+	left: 1045px;
+  	top: 830px;
+	width:174px;
+	height:174px;
+}
+.blueshirt{
+	position: absolute;
+	left: 1320px;
+  	top: 850px;
+	width:174px;
+	height:174px;
+}
+.CommitteesText{
+	position: absolute;
+	left: 400px;
+}
+.CovenantsText{
+	position: absolute;
+	left: 400px;
+}
+.FAQS{
+	position: absolute;
+	left: 400px;
+}
+.icons{
+    display:inline-block;
+    float: right;
+    padding-left: 20px;
+    font-size: 12px;
+    color: #333333;
+    padding-top: 20px;
+    padding-right: 20px;
+	position:absolute;
+	left: 1660px;
+	bottom: 754px
+}
+.icons1{
+    display:inline-block;
+    float: right;
+    padding-left: 20px;
+    font-size: 12px;
+    color: #333333;
+    padding-top: 20px;
+    padding-right: 20px;
+	position:absolute;
+	left: 1610px;
+	bottom: 754px
+}
+.form{
+	margin-bottom: -100px
+}
+.news1 {
+	text-align: center;
+	width:350px;
+	padding-top: 10px;
+	margin-right: inherit;
+	border: 3px black;
+	border-style: solid;
+	padding-left: 10px;
+	background: white;
+	position: absolute;
+	top: 334px
+}
+.foot{
+	position: absolute;
+	top:1200px;
+	left: 10px
+}
+footer{
+	background-color:#BFBFBF 
+	
+}
+
+.news1 {
+}
