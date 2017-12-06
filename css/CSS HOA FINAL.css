@@ -24,7 +24,7 @@ html{
 }
 .title{
 	position: absolute;
-	right: 730px;
+	right: 630px;
 	bottom: 650px;
 	font:"alex-brush";
 }
@@ -60,21 +60,10 @@ li a:hover:not(.active) {
 .active {
     background-color: #4CAF50;
 }
-h2{
-	position:absolute;
-	bottom: 1250px;
-	right: 1625px;
-	width: 120px;
-	margin-left: 150px;
-	margin-bottom: -600px;
-	border: 3px black;
-	border-style:solid;
-	padding-left:50px;
-	background:white;
-}
+
 .park{
 	position: absolute;
-	left: 470px;
+	left: 500px;
 	top: 350px
 }
 .BlackGirl {
@@ -85,11 +74,12 @@ h2{
 	height:174px;
 }
 div.scroll {
-    background-color: white;
+    background-color: #D3BE8A;
     width: 174px;
     height: 150px;
     overflow: scroll;
 }
+
 .glasses{
 	position: absolute;
 	left: 900px;
@@ -97,12 +87,25 @@ div.scroll {
 	width:174px;
 	height:174px;
 }
+div.scroll1 {
+    background-color:#D3BE8A;
+    width: 174px;
+    height: 150px;
+    overflow: scroll;
+}
+
 .grin {
 	position: absolute;
 	left: 1190px;
   	top: 450px;
 	width:174px;
 	height:174px;
+}
+div.scroll2 {
+    background-color:#D3BE8A;
+    width: 174px;
+    height: 150px;
+    overflow: scroll;
 }
 .kid {
 	position: absolute;
@@ -111,12 +114,24 @@ div.scroll {
 	width:174px;
 	height:174px;
 }
+div.scroll3 {
+    background-color:#D3BE8A;
+    width: 174px;
+    height: 150px;
+    overflow: scroll;
+}
 .pinkshirt {
 	position: absolute;
 	left: 760px;
   	top: 850px;
 	width:174px;
 	height:174px;
+}
+div.scroll4 {
+    background-color:#D3BE8A;
+    width: 174px;
+    height: 150px;
+    overflow: scroll;
 }
 .unnamed {
 	position: absolute;
@@ -125,6 +140,12 @@ div.scroll {
 	width:174px;
 	height:174px;
 }
+div.scroll5 {
+    background-color:#D3BE8A;
+    width: 174px;
+    height: 150px;
+    overflow: scroll;
+}
 .blueshirt{
 	position: absolute;
 	left: 1320px;
@@ -132,17 +153,23 @@ div.scroll {
 	width:174px;
 	height:174px;
 }
+div.scroll6 {
+    background-color:#D3BE8A;
+    width: 174px;
+    height: 150px;
+    overflow: scroll;
+}
 .CommitteesText{
 	position: absolute;
-	left: 400px;
+	left: 500px;
 }
 .CovenantsText{
 	position: absolute;
-	left: 400px;
+	left: 500px;
 }
 .FAQS{
 	position: absolute;
-	left: 400px;
+	left: 500px;
 }
 .icons{
     display:inline-block;
@@ -173,7 +200,7 @@ div.scroll {
 }
 .news1 {
 	text-align: center;
-	width:350px;
+	width:450px;
 	padding-top: 10px;
 	margin-right: inherit;
 	border: 3px black;
@@ -181,7 +208,7 @@ div.scroll {
 	padding-left: 10px;
 	background: white;
 	position: absolute;
-	top: 334px
+	top: 264px
 }
 .foot{
 	position: absolute;
@@ -193,5 +220,16 @@ footer{
 	
 }
 
-.news1 {
+.newshead {
+	position:absolute;
+	bottom: 1300px;
+	right: 1571px;
+	width: 120px;
+	margin-left: 150px;
+	margin-bottom: -640px;
+	border: 3px black;
+	border-style:solid;
+	padding-left:50px;
+	background:white;
 }
+
