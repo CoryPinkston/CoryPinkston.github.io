@@ -24,7 +24,7 @@ html{
 }
 .title{
 	position: absolute;
-	right: 630px;
+	right: 730px;
 	bottom: 650px;
 	font:"alex-brush";
 }
@@ -159,15 +159,47 @@ div.scroll6 {
     height: 150px;
     overflow: scroll;
 }
+.comtitle{
+	position: absolute;
+	top: 220px;
+	right: 615px
+}
 .CommitteesText{
 	position: absolute;
 	left: 500px;
 }
+.covtitle{
+	position: absolute;
+	right: 760px;
+	bottom: 650px;
+}
 .CovenantsText{
 	position: absolute;
 	top: 370px;
-	left: 600px;
+	left: 1400px;
 	width: 300px;
+}
+.covabout{
+	position: absolute;
+	top: 300px;
+	right: 350px
+}
+.plattitle{
+	position: absolute;
+	top: 300px;
+	left:550px;
+}
+.map{
+	position: absolute;
+	top: 310px;
+	left:800px;
+	width: 540px;
+	height: 640px;
+}
+.plat{
+	position: absolute;
+	top:370px;
+	left: 580px;
 }
 .FAQS{
 	position: absolute;
