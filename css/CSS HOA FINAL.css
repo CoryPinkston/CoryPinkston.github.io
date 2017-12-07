@@ -165,7 +165,9 @@ div.scroll6 {
 }
 .CovenantsText{
 	position: absolute;
-	left: 500px;
+	top: 370px;
+	left: 600px;
+	width: 300px;
 }
 .FAQS{
 	position: absolute;
