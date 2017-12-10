@@ -7,10 +7,10 @@ html{
 .logo{
 	
 }
-.search{
+.searchbar{
 	position: absolute;
 	left: 1440px;
-	bottom: 765px;
+	bottom: 718px;
 	height: 20px;
 }
 .current{
@@ -22,10 +22,16 @@ html{
 	padding-bottom:10px;
 	
 }
+.contactus{
+	position: absolute;
+	bottom:690px;
+	left:1770px;
+	text-align: center
+}
 .title{
 	position: absolute;
 	right: 730px;
-	bottom: 650px;
+	bottom: 600px;
 	font:"alex-brush";
 }
 ul {
@@ -171,7 +177,7 @@ div.scroll6 {
 .covtitle{
 	position: absolute;
 	right: 760px;
-	bottom: 650px;
+	bottom: 600px;
 }
 .CovenantsText{
 	position: absolute;
@@ -205,6 +211,12 @@ div.scroll6 {
 	position: absolute;
 	left: 500px;
 }
+.hoaQ{
+	position:absolute;
+	top: 700px;
+	left: 1000px;
+}
+
 .icons{
     display:inline-block;
     float: right;
@@ -215,7 +227,7 @@ div.scroll6 {
     padding-right: 20px;
 	position:absolute;
 	left: 1660px;
-	bottom: 754px
+	bottom: 705px
 }
 .icons1{
     display:inline-block;
@@ -227,7 +239,7 @@ div.scroll6 {
     padding-right: 20px;
 	position:absolute;
 	left: 1610px;
-	bottom: 754px
+	bottom: 705px
 }
 .form{
 	margin-bottom: -100px
@@ -246,17 +258,26 @@ div.scroll6 {
 }
 .foot{
 	position: absolute;
-	top:1200px;
-	left: 10px
+	left: 0;
+	bottom: -400px;
+	width: 100%;
+	background-color: #939393;
+	color: white;
+	text-align: center
 }
-footer{
-	background-color:#BFBFBF 
-	
+.footFAQ{
+	position: absolute;
+	left: 0;
+	bottom: -1800px;
+	width: 100%;
+	background-color: #939393;
+	color: white;
+	text-align: center
 }
 
 .newshead {
 	position:absolute;
-	bottom: 1300px;
+	bottom: 1250px;
 	right: 1571px;
 	width: 120px;
 	margin-left: 150px;

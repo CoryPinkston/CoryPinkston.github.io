@@ -4,30 +4,30 @@
 <head>
 <link href="index.html" rel="stylesheet" type="text/css">
 <link href="Board.html" rel="stylesheet" type="text/css">
-<link href="css/CSS HOA FINAL.css" rel="stylesheet" type="text/css">
+<link href="Committees.html" rel="stylesheet" type="text/css">
 <link href="Covenants.html" rel="stylesheet" type="text/css">
 <link href="FAQs.html" rel="stylesheet" type="text/css">
-<link href="Form.html" rel="stylesheet" type="text/css">
+<link href="css/CSS HOA FINAL.css" rel="stylesheet" type="text/css">
 <meta charset="utf-8">
 <title>Prarie Fields</title>
 </head>
 
 <body>
-	
+	+
 	<img src="Images/Prarie Fields LOGO.png"alt="logo" class="logo">
 		<div class="topleft"></div>
 	<nav id="nav_menu"> 
 	  <ul>	
-		  		<li><a href="index.html">Home</a></li>
+		  		<li><a href="index.html" class="current">Home</a></li>
 		  	
 				<li><a href="Board.html">Board</a></li>
 		  
-				<li><a href="Committees.html" class="current">Committees</a></li>
+				<li><a href="Committees.html">Committees</a></li>
 		  
 				<li><a href="Covenants.html">Covenants</a></li>
 		  
 				<li><a href="FAQs.html">FAQ's</a></li>
-		  
+		  		
 		  		<li style="float:right"><a class="active" href="Form.html">Contact Us</a></li>
 		  
 		  	<input type="text" class="searchbar" placeholder="Search..">
@@ -47,30 +47,71 @@
 		</a>
 		
 	</div>
-	<center>
-	  <h1 class="comtitle" style="font: 'alex-brush'">Committees<br>
-      </h1>
-	</center>
-		<div class="CommitteesText" width="400">
-			<h3> 
-				<center>The Prairie Fields HOA has a number of committees to assist in exploring issues, running an annual election, hosting neighborhood events, and more. Send an email to board@prairiefields.org to volunteer on a committee.</center></h3>
-				<br><h2> Architectural Control Committee</h2>
-				<br>The goal of the Architectural Control committee is to preserve the property values of all homeowners in Prairie Fields, and to ensure compliance with applicable covenants when a homeowner makes changes to their property. 
-	
-				<br><h2>Communications Committee</h2>
-				<br>The Communications Committee is responsible for facilitating communications with residents of Prairie Fields, including an Annual Newsletter, maintaining this website and a facebook group, and sending monthly email updates.
+<style>
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=Email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+	}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
-				<br><h2>Election Committee</h2>
-				<br>The Election Committee is responsible for running an annual election of the homeowners within Prairie Fields.  
-		
-				<br><h2>Events Committee</h2>
-				<br>The Events Committee is responsible for organizing events for residents of Prairie Fields.
+input[type=submit]:hover {
+    background-color: #45a049;
+}
 
-				<br><h2>Welcoming Committee</h2>
-				<br>The Welcoming committee is responsible for welcoming new residents to Prairie Fields.   
-			
-		</div>
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	position: absolute;
+	left: 500px;
+	top:300px
+}
+</style>
+<body>
 
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="https://formspree.io/your@email.com"
+      method="POST">
+	<label for="Email">Email</label>
+	<input type="Email" id="Email" name="Email" placeholder="Your Email..">
+	  
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
 	<div class="newshead">
 		<h2>NEWS</h2>
 	</div>
@@ -121,4 +162,5 @@
 	<br>Phone:(217)689-1360
 	</footer>
 </body>
+	</body>
 </html>
