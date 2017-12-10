@@ -10,7 +10,7 @@ html{
 .searchbar{
 	position: absolute;
 	left: 1440px;
-	bottom: 718px;
+	bottom: 768px;
 	height: 20px;
 }
 .MapG{
@@ -46,7 +46,7 @@ html{
 .title{
 	position: absolute;
 	right: 730px;
-	bottom: 600px;
+	bottom: 650px;
 	font:"alex-brush";
 }
 ul {
@@ -192,7 +192,7 @@ div.scroll6 {
 .covtitle{
 	position: absolute;
 	right: 760px;
-	bottom: 600px;
+	bottom: 650px;
 }
 .CovenantsText{
 	position: absolute;
@@ -242,7 +242,7 @@ div.scroll6 {
     padding-right: 20px;
 	position:absolute;
 	left: 1660px;
-	bottom: 705px
+	bottom: 755px
 }
 .icons1{
     display:inline-block;
@@ -254,7 +254,7 @@ div.scroll6 {
     padding-right: 20px;
 	position:absolute;
 	left: 1610px;
-	bottom: 705px
+	bottom: 755px
 }
 .form{
 	margin-bottom: -100px
@@ -292,7 +292,7 @@ div.scroll6 {
 
 .newshead {
 	position:absolute;
-	bottom: 1250px;
+	bottom: 1300px;
 	right: 1571px;
 	width: 120px;
 	margin-left: 150px;
