@@ -13,6 +13,21 @@ html{
 	bottom: 718px;
 	height: 20px;
 }
+.MapG{
+	position: absolute;
+	left:1000px;
+	top: 300px
+}
+.ourlocation{
+	position: absolute;
+	top: 230px;
+	left:1250px;
+}
+.questions{
+	position: absolute;
+	top: 230px;
+	left:630px;
+}
 .current{
 	border-right-style: solid;
 	border-right-color:#24D5EB;
